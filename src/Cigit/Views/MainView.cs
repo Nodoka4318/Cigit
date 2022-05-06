@@ -11,8 +11,12 @@ namespace Cigit.Views {
     public partial class MainView : Form {
         public MainView() {            
             InitializeComponent();
-            this.slideMenu1 = new SlideMenu("test1", "test2", "test3");
-            slideMenu1.SetBackColor(Color.AliceBlue);
+
+            //slideMenu1.SetPanelColor(Color.AliceBlue);
+
+            slideMenu1.BindAction("test1", () => {
+                MessageBox.Show("it works!");
+            });
         }
     }
 }

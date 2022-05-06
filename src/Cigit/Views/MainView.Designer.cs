@@ -27,7 +27,7 @@
             this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.EditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.slideMenu1 = new Cigit.Controls.SlideMenu();
+            this.slideMenu1 = new Cigit.Controls.SlideMenu("test1", "test2", "test3");
             this.mainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             // 
             this.slideMenu1.Dock = System.Windows.Forms.DockStyle.Left;
             this.slideMenu1.Location = new System.Drawing.Point(0, 24);
-            this.slideMenu1.Name = "slideMenu1";
+            this.slideMenu1.Name = "slideMenu2";
             this.slideMenu1.Size = new System.Drawing.Size(200, 426);
             this.slideMenu1.TabIndex = 1;
             // 
