@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cigit {
+namespace Cigit.Project {
     public class Class1 {
     }
 }
