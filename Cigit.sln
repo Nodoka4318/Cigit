@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cigit.NetCore", "src\Cigit.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cigit.GitHub", "src\Cigit.GitHub\Cigit.GitHub.csproj", "{B4E85BA9-8D4B-4EA3-9700-DED1FEE74254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cigit.Project", "src\Cigit.Project\Cigit.Project.csproj", "{5911FF42-EBF1-48DD-93AA-7C0725B244D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cigit.Project", "src\Cigit.Project\Cigit.Project.csproj", "{5911FF42-EBF1-48DD-93AA-7C0725B244D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E615E3EF-B34A-44CF-B6E0-DAE5BB9A27BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlTest", "tests\WinFormsControlTest\WinFormsControlTest.csproj", "{A15DA2CB-C5D9-4424-B424-92CD9395B3A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{5911FF42-EBF1-48DD-93AA-7C0725B244D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5911FF42-EBF1-48DD-93AA-7C0725B244D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5911FF42-EBF1-48DD-93AA-7C0725B244D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15DA2CB-C5D9-4424-B424-92CD9395B3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15DA2CB-C5D9-4424-B424-92CD9395B3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15DA2CB-C5D9-4424-B424-92CD9395B3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15DA2CB-C5D9-4424-B424-92CD9395B3A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{BF576F26-382D-4D47-A4E8-75FF1E710144} = {89A0AC9E-F0E7-4D2B-B449-0796B788EA31}
 		{B4E85BA9-8D4B-4EA3-9700-DED1FEE74254} = {89A0AC9E-F0E7-4D2B-B449-0796B788EA31}
 		{5911FF42-EBF1-48DD-93AA-7C0725B244D5} = {89A0AC9E-F0E7-4D2B-B449-0796B788EA31}
+		{A15DA2CB-C5D9-4424-B424-92CD9395B3A0} = {E615E3EF-B34A-44CF-B6E0-DAE5BB9A27BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC82500E-3914-4C0E-8F12-C9140EA3C079}
