@@ -13,6 +13,7 @@ namespace WinFormsControlTest {
         public Form1() {
             InitializeComponent();
 
+            /*
             slideMenu1.BindAction("button1", () => {
                 MessageBox.Show("hello, world");
                 slideMenu1.SetButtonColor(Color.LimeGreen);
@@ -22,6 +23,7 @@ namespace WinFormsControlTest {
                 MessageBox.Show("ほげ");
                 slideMenu1.SetPanelColor(Color.Aqua);
             });
+            */
         }
 
     }
