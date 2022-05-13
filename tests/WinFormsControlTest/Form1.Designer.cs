@@ -23,7 +23,7 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.textEditor1 = new Cigit.Controls.TextEditor();
+            this.textEditor1 = new Cigit.Controls.EditorBox();
             this.slideMenu1 = new Cigit.Controls.SlideMenu("test1", "テスト2");
             this.SuspendLayout();
             // 
@@ -59,6 +59,6 @@
         #endregion
 
         private Cigit.Controls.SlideMenu slideMenu1;
-        private Cigit.Controls.TextEditor textEditor1;
+        private Cigit.Controls.EditorBox textEditor1;
     }
 }

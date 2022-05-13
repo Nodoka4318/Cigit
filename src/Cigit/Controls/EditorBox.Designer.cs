@@ -1,5 +1,5 @@
 ﻿namespace Cigit.Controls {
-    partial class TextEditor {
+    partial class EditorBox {
         /// <summary> 
         /// 必要なデザイナー変数です。
         /// </summary>
@@ -28,6 +28,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
@@ -35,12 +36,12 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
-            // TextEditor
+            // EditorBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.richTextBox1);
-            this.Name = "TextEditor";
+            this.Name = "EditorBox";
             this.Size = new System.Drawing.Size(800, 800);
             this.ResumeLayout(false);
 

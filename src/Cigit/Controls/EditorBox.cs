@@ -7,8 +7,8 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace Cigit.Controls {
-    public partial class TextEditor : UserControl {
-        public TextEditor() {
+    public partial class EditorBox : UserControl {
+        public EditorBox() {
             InitializeComponent();
         }
     }

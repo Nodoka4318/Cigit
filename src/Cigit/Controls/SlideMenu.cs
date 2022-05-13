@@ -29,8 +29,8 @@ namespace Cigit.Controls {
                     // Width = this.Width,
                     // Height = BUTTON_HEIGTH,
                     FlatStyle = FlatStyle.Flat,
-                    Location = new Point(0, 100 + 30 * count),
-                    Size = new Size(this.Width, 30)
+                    Location = new Point(0, 100 + BUTTON_HEIGTH * count),
+                    Size = new Size(this.Width, BUTTON_HEIGTH)
                 };
                 btn.FlatAppearance.BorderSize = 0;
                 btn.MouseClick += Btn_MouseClick;
